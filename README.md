@@ -7,6 +7,7 @@ Easy and light treeview component made with React
 Npm:
 ```sh
 npm i react-treeview -S
+```
 
 # API
 
@@ -38,6 +39,7 @@ npm i react-treeview -S
         }]
     }]
 }
+```
 
 ## License
 
