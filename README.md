@@ -6,7 +6,7 @@ Easy and light treeview component made with React
 
 Npm:
 ```sh
-npm i react-treeview -S
+npm i react-treeview-light -S
 ```
 
 # API
