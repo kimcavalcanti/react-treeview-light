@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.collapse-container>div:last-child {
+    margin-bottom: 0.8em;
+}
+
+.collapse-container>div>span {
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+.collapse-container>h3 {
+    margin-left: 3em;
+}
+
+.collapse-info {
+    border-left: 2px solid gray;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -webkit-transition: opacity 1s ease-out;
+    -o-transition: opacity 1s ease-out;
+}
+
+.collapse-info>div {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.collapse-info>div>div {
+    width: 100%;
+    min-height: 18px;
+    display: flex;
+}
+
+.collapse-info>div>div:before {
+    content: ' \A0   \A0   \A0   \A0';
+    width: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 8px;
+    border-bottom: 2px solid grey;
+}
+
+.lastChild {
+    margin-top: 8px;
+    float: left;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.lastChild>span>img {
+    width: 1rem;
+    height: 1rem;
+    filter: grayscale(1);
+}
+
+.lastChild>input {
+    margin-right: 3px;
+}
+
+.collapse-button {
+    cursor: pointer;
+    min-height: 18px;
+    z-index: 1000;
+}
+
+.collapse-caret {
+    margin-right: 5px;
+    z-index: -1;
+    pointer-events: none;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
