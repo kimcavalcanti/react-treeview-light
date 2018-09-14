@@ -1,4 +1,4 @@
-# React-treeview [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=0.1.0&x2=0)](https://www.npmjs.com/package/react-treeview-light)
+# React-treeview [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=0.1.3&x2=0)](https://www.npmjs.com/package/react-treeview-light)
 
 Easy and light treeview component made with React
 
